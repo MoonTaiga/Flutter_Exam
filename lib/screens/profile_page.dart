@@ -17,11 +17,11 @@ class ProfilePage extends StatelessWidget {
               children: [
                 CircleAvatar(
                   radius: 50,
-                  backgroundImage: AssetImage('assets/images/profile_picture.png'),
+                  backgroundImage: AssetImage('assets/images/jerico.jpg'),
                 ),
                 const SizedBox(height: 16),
                 const Text(
-                  'Nean Gaa Gwapo',
+                  'Jerico ',
                   style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
                 ),
                 const Text('Food Enthusiast & Chef', style: TextStyle(fontSize: 16)),
